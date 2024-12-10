@@ -1,21 +1,28 @@
-/* Set up the body and ensure it's centered */
+/* Set up the body to center content */
 body {
-  margin: 0; /* Remove default margins */
-  padding: 0; /* Remove default padding */
-  display: flex; /* Use Flexbox for centering */
-  justify-content: center; /* Horizontally center content */
-  align-items: flex-start; /* Align items at the top of the page */
-  height: 100vh; /* Ensure the body takes up full height */
-  text-align: center; /* Center text horizontally */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: flex-start; /* Aligns content at the top of the page */
+  height: 100vh; /* Takes up full viewport height */
+  text-align: center; /* Centers text horizontally */
+  flex-direction: column; /* Stacks elements vertically */
 }
 
-/* Container to ensure content is not too wide */
+/* Container to prevent content from stretching too far */
 .container {
-  width: 80%; /* You can adjust this as needed */
-  max-width: 1200px; /* Optional: Set a max width to prevent large stretching */
+  width: 80%;
+  max-width: 1200px; /* Optional: Limit maximum width */
 }
 
-/* Optional: Styling for the button */
+/* Ensures images and other elements are centered */
+img {
+  display: block; /* Ensures the image is displayed as a block element */
+  margin: 20px auto; /* Adds margin on top and bottom, centers the image horizontally */
+}
+
+/* Optional: Button style */
 .button {
   display: inline-block;
   margin-top: 20px;
