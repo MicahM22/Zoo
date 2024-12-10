@@ -1,4 +1,14 @@
-.my-custom-section {
-  background-color: #f0f0f0;
-  padding: 20px;
+/* Center the body content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center the text inside the body */
+  margin: 0; /* Remove any default margin */
+}
+
+.container {
+  width: 80%; /* You can adjust the width as needed */
+  max-width: 1200px; /* Optionally limit the maximum width */
 }
