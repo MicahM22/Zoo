@@ -9,6 +9,21 @@ body {
   text-align: center; /* Centers text horizontally */
   flex-direction: column; /* Stack elements vertically */
   background-color: #f4f4f4; /* Optional: Add a background color */
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 36px; /* 36 pixels for h1 */
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 28px; /* 28 pixels for h2 */
+}
+
+/* Paragraph font size */
+p {
+  font-size: 18px; /* 18 pixels for paragraphs */
 }
 
 /* Container to prevent content from stretching too far */
