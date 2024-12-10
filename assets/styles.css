@@ -1,28 +1,29 @@
-/* Set up the body to center content */
+/* Set up the body to center content both horizontally and vertically */
 body {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: center; /* Centers the content horizontally */
-  align-items: flex-start; /* Aligns content at the top of the page */
-  height: 100vh; /* Takes up full viewport height */
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh; /* Takes up the full viewport height */
   text-align: center; /* Centers text horizontally */
-  flex-direction: column; /* Stacks elements vertically */
+  flex-direction: column; /* Stack elements vertically */
+  background-color: #f4f4f4; /* Optional: Add a background color */
 }
 
 /* Container to prevent content from stretching too far */
 .container {
-  width: 80%;
+  width: 80%; /* Adjust the container width */
   max-width: 1200px; /* Optional: Limit maximum width */
 }
 
-/* Ensures images and other elements are centered */
+/* Image styling - center it with space around it */
 img {
-  display: block; /* Ensures the image is displayed as a block element */
-  margin: 20px auto; /* Adds margin on top and bottom, centers the image horizontally */
+  display: block; /* Make image a block element */
+  margin: 20px auto; /* Center horizontally and add space vertically */
 }
 
-/* Optional: Button style */
+/* Optional: Button styling */
 .button {
   display: inline-block;
   margin-top: 20px;
