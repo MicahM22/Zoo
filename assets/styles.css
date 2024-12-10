@@ -1,14 +1,31 @@
-/* Center the body content */
+/* Set up the body and ensure it's centered */
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
-  text-align: center; /* Center the text inside the body */
-  margin: 0; /* Remove any default margin */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Horizontally center content */
+  align-items: flex-start; /* Align items at the top of the page */
+  height: 100vh; /* Ensure the body takes up full height */
+  text-align: center; /* Center text horizontally */
 }
 
+/* Container to ensure content is not too wide */
 .container {
-  width: 80%; /* You can adjust the width as needed */
-  max-width: 1200px; /* Optionally limit the maximum width */
+  width: 80%; /* You can adjust this as needed */
+  max-width: 1200px; /* Optional: Set a max width to prevent large stretching */
+}
+
+/* Optional: Styling for the button */
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
