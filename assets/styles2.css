@@ -1,0 +1,6 @@
+/* page2-styles.css */
+pre {
+  text-align: left; /* Ensures the text is left aligned */
+  white-space: pre-wrap; /* Keeps the formatting but allows wrapping */
+  word-wrap: break-word; /* Breaks long words if necessary */
+}
