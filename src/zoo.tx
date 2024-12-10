@@ -1,0 +1,80 @@
+/*
+An example of the zoo program:
+Kingdom: Animalia
+  Phylum: Chordata
+    Class: Mammalia
+      Order: Carnivora
+        Family: Canidae
+          Genus: Canis
+            Species: Canis lupus
+              Alias: Gray Wolf
+            Species: Canis latrans
+              Alias: Coyote
+            Species: Canis lupus familiaris
+              Alias: Domestic Dog
+*/
+
+// This is a common rule. For each rule a class with the same name will be
+// created.
+Program:
+  kingdoms+=Kingdom
+;
+
+
+// 
+Kingdom:
+  'Kingdom:' name=ID (color=Color)?
+  phyla+=Phylum+
+;
+
+// 
+Phylum:
+  'Phylum:' name=ID (color=Color)?
+  classes+=Class+
+;
+
+// 
+Class:
+  'Class:' name=ID (color=Color)?
+  orders+=Order+
+;
+
+// 
+Order:
+  'Order:' name=ID (color=Color)?
+  families+=Family+
+;
+
+// 
+Family:
+  'Family:' name=ID (color=Color)?
+  (subfamilies+=Subfamily+ | genera+=Genus+)
+;
+
+Subfamily:
+  'Subfamily:' name=ID (color=Color)?
+  genera+=Genus+
+;
+
+// 
+Genus:
+  'Genus:' name=ID (color=Color)?
+  species+=Species+
+;
+
+// 
+Species:
+  'Species:' name=ID (color=Color)?
+  ('Common Name:' common_name=STRING)?
+  ('Synonym:' synonym=ID)?
+  taxonomy?='Taxonomy'
+;
+
+Color:
+  /#[0-9a-fA-F]{6}/  // Matches uppercase or lowercase hex digits
+;
+
+// 
+Comment:
+  /\/\/.*$/
+;
