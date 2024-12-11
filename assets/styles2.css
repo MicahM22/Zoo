@@ -4,3 +4,16 @@ pre {
   white-space: pre-wrap; /* Keeps the formatting but allows wrapping */
   word-wrap: break-word; /* Breaks long words if necessary */
 }
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
