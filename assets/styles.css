@@ -29,7 +29,7 @@ p {
 /* Container to prevent content from stretching too far */
 .container {
   width: 100%; /* Adjust the container width */
-  max-width: 1200px; /* Optional: Limit maximum width */
+  max-width: 1400px; /* Optional: Limit maximum width */
 }
 
 /* Image styling - center it with space around it */
