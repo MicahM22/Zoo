@@ -28,7 +28,7 @@ p {
 
 /* Container to prevent content from stretching too far */
 .container {
-  width: 80%; /* Adjust the container width */
+  width: 100%; /* Adjust the container width */
   max-width: 1200px; /* Optional: Limit maximum width */
 }
 
