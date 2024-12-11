@@ -38,7 +38,7 @@ p {
 }
 
 .larger-img {
-  width: 800px; /* Larger image */
+  width: 1000px; /* Larger image */
   height: auto; /* Maintain aspect ratio */
 }
 
