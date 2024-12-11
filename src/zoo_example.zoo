@@ -1,0 +1,18 @@
+Kingdom: Animalia #60b9d6
+  Phylum: Chordata #70d174
+    Class: 	Mammalia #0030FF
+      Order: Carnivora #da5610
+        Family: Felidae #da5610
+            Genus: Panthera #da5610
+              Species: leo #da5610
+                Common Name: "Lion"
+                Taxonomy
+              Species: tigris #da5610
+                Common Name: "Tiger"
+                Taxonomy
+            Genus: Puma #da5610
+              Species: concolor #da5610
+                Common Name: "Cougar"
+                Synonym: "Felis concolor"
+                Taxonomy
+           
