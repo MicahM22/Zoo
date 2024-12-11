@@ -40,6 +40,7 @@ p {
 .larger-img {
   width: 2000px; /* Larger image */
   height: auto; /* Maintain aspect ratio */
+  margin-left: 50px; 
 }
 
 /* Optional: Button styling */
