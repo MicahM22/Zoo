@@ -34,9 +34,14 @@ p {
 }
 
 /* Image styling - center it with space around it */
-img {
-  display: block; /* Make image a block element */
-  margin: 20px auto; /* Center horizontally and add space vertically */
+.smaller-img {
+  width: 300px; /* Smaller image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.larger-img {
+  width: 800px; /* Larger image */
+  height: auto; /* Maintain aspect ratio */
 }
 
 /* Optional: Button styling */
